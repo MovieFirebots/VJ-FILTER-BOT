@@ -23,7 +23,7 @@ API_HASH = environ.get('API_HASH', '16b9f1767df306b369039fee1202970d')
 BOT_TOKEN = environ.get('BOT_TOKEN', "6922034426:AAEwcZzMujJP5JvBaQj2d0FS-8ncMoHW4_c")
 
 # Bot settings
-CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
+CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 PICS = (environ.get('PICS', 'https://graph.org/file/f8ba533ee81154c51e335.jpg')).split() #SAMPLE PIC
 NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/f8ba533ee81154c51e335.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://t.me/LinkZzzg")
@@ -142,7 +142,7 @@ URL = environ.get("URL", "https://testofvjfilter-1fa60b1b8498.herokuapp.com/")
 
 
 # Rename Info : If True Then Bot Rename File Else Not
-RENAME_MODE = bool(environ.get('RENAME_MODE', False)) # Set True or False
+RENAME_MODE = bool(environ.get('RENAME_MODE', True)) # Set True or False
 
 # Auto Approve Info : If True Then Bot Approve New Upcoming Join Request Else Not
 AUTO_APPROVE_MODE = bool(environ.get('AUTO_APPROVE_MODE', False)) # Set True or False
