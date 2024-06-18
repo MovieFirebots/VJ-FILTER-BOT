@@ -33,7 +33,7 @@ SPELL_IMG = environ.get("SPELL_IMG", "https://graph.org/file/f8ba533ee81154c51e3
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002013923030'))
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1775977570').split()]
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002035053569').split()]
-auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
+auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '1775977570').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 
 # auth_channel means force subscribe channel.
@@ -69,7 +69,7 @@ OWNER_USERNAME = environ.get('OWNER_USERNAME', 'SK_Deku') # owner username witho
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+-Zv-W2jXjzYxZjQ9')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/AnimeFireTamil')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/LinkZzzg/4')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 't.me/AnimeFireTamil') # Support Chat Link Without https:// or @
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/AnimeFireTamil') # Support Chat Link Without https:// or @
 
 # True Or False
 AI_SPELL_CHECK = bool(environ.get('AI_SPELL_CHECK', True))
@@ -102,8 +102,8 @@ VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/How_To_Open_Linkl
 
 # Shortlink Info
 SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', True))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'rocklinks.net')
-SHORTLINK_API = environ.get('SHORTLINK_API', '910764b1a8bde559160801483a86c854d804c9bc')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'https://publicearn.com/')
+SHORTLINK_API = environ.get('SHORTLINK_API', '48971f23ff228e685dedb2254b37559dfaf9d3e6')
 
 # Others
 MAX_B_TN = environ.get("MAX_B_TN", "5")
