@@ -32,7 +32,7 @@ SPELL_IMG = environ.get("SPELL_IMG", "https://graph.org/file/f8ba533ee81154c51e3
 # Admins, Channels & Users
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002013923030'))
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1775977570').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002178739335').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002035053569').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 
@@ -67,7 +67,7 @@ OWNER_USERNAME = environ.get('OWNER_USERNAME', 'SK_Deku') # owner username witho
 
 # Links
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+-Zv-W2jXjzYxZjQ9')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/MovieFireTamil')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/AnimeFireTamil')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/LinkZzzg/4')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 't.me/AnimeFireTamil') # Support Chat Link Without https:// or @
 
@@ -102,8 +102,8 @@ VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/How_To_Open_Linkl
 
 # Shortlink Info
 SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', True))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', '0')
-SHORTLINK_API = environ.get('SHORTLINK_API', '0')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'rocklinks.net')
+SHORTLINK_API = environ.get('SHORTLINK_API', '910764b1a8bde559160801483a86c854d804c9bc')
 
 # Others
 MAX_B_TN = environ.get("MAX_B_TN", "5")
@@ -145,7 +145,7 @@ URL = environ.get("URL", "https://testofvjfilter-1fa60b1b8498.herokuapp.com/")
 RENAME_MODE = bool(environ.get('RENAME_MODE', True)) # Set True or False
 
 # Auto Approve Info : If True Then Bot Approve New Upcoming Join Request Else Not
-AUTO_APPROVE_MODE = bool(environ.get('AUTO_APPROVE_MODE', False)) # Set True or False
+AUTO_APPROVE_MODE = bool(environ.get('AUTO_APPROVE_MODE', True)) # Set True or False
 
 # Save Restricted Info : If True Then Bot Save Content From Restricted Channel Else Not
 SAVE_RESTRICTED_MODE = bool(environ.get('SAVE_RESTRICTED_MODE', False)) # Set True or False
