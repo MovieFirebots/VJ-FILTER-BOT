@@ -451,7 +451,7 @@ BOT WORKING PROPERLY"""
 
  எப்படி மற்றும் என்ன செய்ய வேண்டும்
 
- படி 1: இந்த VJ-FILTER-BOT போட் உங்கள் குழுவை நிர்வாகியாக்குங்கள்
+ படி 1: இந்த MovieFireTamil பாட்-டை உங்கள் குழுவை admin ஆக நிர்வாகியாக்குங்கள்
 
  படி 2: உங்கள் இணையதளம் மற்றும் API ஐச் சேர்க்கவும்
 
@@ -478,7 +478,7 @@ Hey <a href='tg://settings'>ᴍʏ ғʀɪᴇɴᴅ</a>
 
  How and what to do
 
- Step 1: Administer this VJ-FILTER-BOT bot to your group
+ Step 1: Administer this MovieFireTamil bot to your group
 
  Step 2: Add your website and API
 
@@ -505,7 +505,7 @@ Also your tutorial will be Added Your Group..."""
 
  ఎలా మరియు ఏమి చేయాలి
 
- దశ 1: ఈ VJ-FILTER-BOT బాట్‌ని మీ సమూహానికి నిర్వహించండి
+ దశ 1: ఈ MovieFireTamil బాట్‌ని మీ సమూహానికి నిర్వహించండి
 
  దశ 2: మీ వెబ్‌సైట్ మరియు APIని జోడించండి
 
@@ -613,7 +613,7 @@ Also your tutorial will be Added Your Group..."""
 
  કેવી રીતે અને શું કરવું
 
- પગલું 1: તમારા જૂથમાં આ VJ-FILTER-BOT બોટનું સંચાલન કરો
+ પગલું 1: તમારા જૂથમાં આ MovieFireTamil બોટનું સંચાલન કરો
 
  પગલું 2: તમારી વેબસાઇટ અને API ઉમેરો
 
@@ -665,7 +665,7 @@ Also your tutorial will be Added Your Group..."""
 
  কিভাবে এবং কি করতে হবে
 
- ধাপ 1: আপনার গ্রুপে এই VJ-FILTER-BOT বট পরিচালনা করুন
+ ধাপ 1: আপনার গ্রুপে এই MovieFireTamil বট পরিচালনা করুন
 
  ধাপ 2: আপনার ওয়েবসাইট এবং API যোগ করুন
 
@@ -683,11 +683,11 @@ Also your tutorial will be Added Your Group..."""
     DEVELOPER_TXT = """
 special Thanks To ❤️ Developers -
 
--Dev 1 [Owner of this bot ]<a href='https://t.me/KingVj01'>VJ</a>
+-Dev 1 [Owner of this bot ]<a href='https://t.me/SK_Deku'>VJ</a>
 
--Dev 2 <a href='https://t.me/vjbots_bot'>VJ</a>
+-Dev 2 <a href='https://t.me/AnimeFireTamil'>Anime</a>
 
--Dev 3 <a href='https://t.me/vj_botz>VJ Botz</a>
+-Dev 3 <a href='https://t.me/MovieFireTamil>VJ Movies</a>
 
 - Dev 4 <a href='https://t.me/vj_bots'>TEAM VJ</a>
 """
