@@ -30,7 +30,7 @@ async def start(client, message):
             InlineKeyboardButton('💫 ANIMES ', url="https://t.me/AnimeFireTamil"),
             InlineKeyboardButton('🎬Mivie Group ', url='GRP_LNK')
         ],[
-            InlineKeyboardButton(' ⚡ Jᴏɪɴ Back Up ⚡', url='https://t.me/+uJXb_IduPhdlMTJl')
+            InlineKeyboardButton(' ⚡ Jᴏɪɴ Back Up ⚡', url='https://t.me/+fBwpVJssXkUzM2Rl')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply(script.START_TXT.format(message.from_user.mention if message.from_user else message.chat.title, temp.U_NAME, temp.B_NAME), reply_markup=reply_markup, disable_web_page_preview=True)
@@ -85,9 +85,9 @@ async def start(client, message):
     if AUTH_CHANNEL and not await is_subscribed(client, message):
         try:
             if REQUEST_TO_JOIN_MODE == True:
-                invite_link = await client.chat_invite_link(chat_id=(int(AUTH_CHANNEL)), creates_join_request=True)
+                invite_link = await client.create_chat_invite_link(chat_id=(int(AUTH_CHANNEL)), creates_join_request=True)
             else:
-                invite_link = await client.chat_invite_link(int(AUTH_CHANNEL))
+                invite_link = await client.create_chat_invite_link(int(AUTH_CHANNEL))
         except ChatAdminRequired:
             logger.error("Make sure Bot is admin in Forcesub channel")
             return
